@@ -46,6 +46,10 @@ header li {
   list-style: none;
   text-shadow: 0 2px 4px #000;
 }
+header li:hover {
+  transition: 0.5s;
+  color: #E03131;
+}
 header h2 {
   font-size: 110px;
   color: #eee;

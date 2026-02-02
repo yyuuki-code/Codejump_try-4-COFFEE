@@ -74,6 +74,11 @@ header {
     text-shadow: 0 2px 4px #000;
   }
 
+  li:hover{
+    transition: 0.5s;
+    color: #E03131;
+  }
+
   h2 {
     @include h2;
     height: 90vh;
